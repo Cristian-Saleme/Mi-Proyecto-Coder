@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+ul{list-style: none;}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1.px solid rgba(0, 0, 0, 0.3);
+    box-shadow:rgba(0, 0, 0, 0.5) ;
+    color: white;
+    background-color: blueviolet;
+    
+}
+button:hover{
+    background-color: blueviolet;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgba(240,240,240,240);
+}
+header .logo{
+margin: 0;
+padding: 25px 30px;
+font-weight: bold;
+color: blueviolet;
+font-size: 1.6em;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .nav-bar{
+    display: flex;
+    flex-direction: row;
+    text-align: center center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+header a:hover{
+color: blueviolet;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image:linear-gradient(
+        rgba(94, 94, 94, 0.5),rgba(70, 70, 70, 0.5)
+    ),url(../asset/image/inicio.jpg) ;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
+#hero h1{
+    color: white;
+}
+#hero h3{
+padding: 20px 20px;
+}
+#hero h4{
+    padding: 20px 20px;   
+}
+
+#hero button{
+    text-align: center;
+    margin-top:  30px;    
+}
+#initial{
+    text-align: center;
+    padding: 50px;
+    margin: 0px;
+    background-color: rgb(34, 34, 34);
+}  
+#initial h3 , h4{
+    color: white;
+    text-align: 50px 50px;
+    padding: auto;
+    margin: 15px;
+
+}
+
+#initial p{
+    color:  white;
+    text-align: center;
+    margin: 50px;
+
+}
+
+
+#somos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+#somos p{
+    text-align: center;
+}
+#somos button{
+    text-align: center;
+    margin-top:  50px;
+
+}
+
+#nuestros{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+#nuestros .container{
+    padding: 150px 12px;
+}
+#nuestros h2{
+    margin: auto;
+}
+#nuestros .carta{
+    padding: 50px;
+    margin: 0px;
+    border-radius: 0%;
+}
+#nuestros button{
+        padding: 10px;
+        margin-top: 20px ;
+        border-radius: 0%;
+
+}
+.carta:first-child{
+    background-image:linear-gradient(
+        rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+    ),url(../asset/image/td1.jpg);
+    background-position: center center;
+    background-size: cover;
+
+}
+.carta:nth-child(2){
+    background-image:linear-gradient(
+        rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+    ),url(../asset/image/td2.jpg);
+    background-position: center center;
+    background-size: cover;
+
+}
+.carta.carta:nth-child(3){
+    background-image:linear-gradient(
+        rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+    ),url(../asset/image/experto.jpg);
+    background-position: center center;
+    background-size: cover;
+
+}
+.carta.carta:nth-child(4){
+    background-image:linear-gradient(
+        rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+    ),url(../asset/image/td1.jpg);
+    background-position: center center;
+    background-size: cover;
+
+}
+#caracteristicas{
+    text-align: center;
+    
+}
+#caracteristicas li{
+    margin: 15px 0px;
+    font-weight: bold;
+}
+#inscribite h2{
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 0%; 
+}
+#inscribite {
+    text-align: center;
+    padding: 100px;
+    margin: 20px;
+    border-radius: 0%; 
+}
+#inscripcion {
+    text-align: center;
+    padding: 80px;
+    margin: 40px;
+    border-radius: 30%; 
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 130vh;
+    color: white;
+    background-image:linear-gradient(
+        rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+    ),url(../asset/image/inscripcion.jpg) ;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
+
+#inscripcion button {
+    padding: 50px;
+    margin: 40px;
+    border-radius: 30%;
+}
+#curso{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    background-image:linear-gradient(
+        rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+    ),url(../asset/image/cursos.jpg) ;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
+#curso h1{
+    padding: 50px;
+    margin: 0%;
+}
+#precios h1{
+    text-align: center;
+    margin: 5px 5px;
+    font-weight: bold;
+}
+#precios h2{
+    text-align: center;
+    margin: 5px 5px;
+    font-weight: bold;
+}
+#precios h3{
+    text-align: center;
+    margin: 5px 5px;
+    font-weight: bold;
+}
+#precios p{
+    text-align: center;
+    margin: 5px 5px;
+    font-weight: bold;
+}
+#precios li{
+    text-align: center;
+    margin: 5px 5px;
+    font-weight: bold;
+
+}
