@@ -3,10 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "roboto", sans-serif;
-    
 }
 html{
     scroll-behavior: smooth;
+    background-color: rgba(205,205,205,205);
 }
 
 h1{font-size: 3.5em;}
@@ -36,7 +36,8 @@ button:hover{
 }
 
 header{
-    background-color: rgba(240,240,240,240);
+    background-color: rgba(205,205,205,205);
+    
 }
 header .logo{
 margin: 0;
@@ -52,8 +53,8 @@ header .container{
 }
 header .nav-bar{
     display: flex;
-    flex-direction: row;
-    text-align: center center;
+    flex-direction: column;
+    text-align: center;
     padding-bottom: 25px;
 }
 header a{
@@ -98,23 +99,20 @@ padding: 20px 20px;
     text-align: center;
     padding: 50px;
     margin: 0px;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(175, 173, 173);
 }  
 #initial h3 , h4{
-    color: white;
+    color: rgb(7, 7, 7);
     text-align: 50px 50px;
     padding: auto;
     margin: 15px;
-
 }
 
 #initial p{
-    color:  white;
+    color:  rgb(3, 3, 3);
     text-align: center;
     margin: 50px;
-
 }
-
 
 #somos {
     display: flex;
@@ -130,12 +128,11 @@ padding: 20px 20px;
 #somos button{
     text-align: center;
     margin-top:  50px;
-
 }
 
 #nuestros{
-    background-color: rgb(30,30,30);
-    color: white;
+    background-color: rgb(10, 10, 10);
+    color: rgb(245, 239, 239);
     text-align: center;
 }
 #nuestros .container{
@@ -155,6 +152,7 @@ padding: 20px 20px;
         border-radius: 0%;
 
 }
+
 .carta:first-child{
     background-image:linear-gradient(
         rgba(0,0,0,0.5),rgba(0,0,0,0.5)
@@ -195,16 +193,16 @@ padding: 20px 20px;
     margin: 15px 0px;
     font-weight: bold;
 }
-#inscribite h2{
+#inscribite button{
     text-align: center;
     padding: 50px;
     margin: 20px;
-    border-radius: 0%; 
+    border-radius: 30%; 
 }
 #inscribite {
     text-align: center;
-    padding: 100px;
-    margin: 20px;
+    padding: 30px;
+    margin: 10px;
     border-radius: 0%; 
 }
 #inscripcion {
@@ -277,5 +275,21 @@ background-position: center center;
     text-align: center;
     margin: 5px 5px;
     font-weight: bold;
-
 }
+.container{
+    padding: 30px;
+    text-align: center;
+}
+@media (min-width: 720px) {
+    header .container{
+    flex-direction: row;
+    justify-content: space-between;
+}
+header .nav-bar{
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+}
+
+
+
