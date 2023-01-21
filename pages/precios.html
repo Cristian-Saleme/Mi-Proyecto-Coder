@@ -1,58 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academia Trading</title>
+    <title>Academia - Precios</title>
+    <link rel="shortcut icon" href="../asset/image/logo1.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
     <header>
-        <div class="container"> 
-            <p class="logo">Academia Trading</p>
-            <nav>
-                <ul class="nav-bar">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./cursos.html">Cursos</a></li>
-                    <li><a href="./precios.html">Precios</a></li>
-                    <li><a href="./inscrip.html">Inscripcion</a></li>
-                    <li><a href="./somos.html">Quienes Somos</a></li>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Academia Trading</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cursos.html">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./precios.html">Precios</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mas</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./inscrip.html">Inscripciones</a></li>
+                        <li><a class="dropdown-item" href="./somos.html">Quienes Somos</a></li>
+                        </li>
+                        </ul>
+                    </li>
                     </ul>
+                </div>
+                </div>
             </nav>
-        </div>
     </header>
     <main>
-        <section id="nuestros">
-            <h2>PRECIOS</h2>
-            <div class="carta">
-            <h3>EL MERCADO PARA PRINCIPIANTES</h3>
-            <p>Te damos 2 clases de prueba, y si no cumple con tus expectativas te devolvemos el dinero.Cursos prácticos y de alta calidad a un precio accesible. ¡Conocé Más! Expertos en Finanzas. Aprendé de Finanzas. Aprendé a Operar.
-            </p>
-            <form action="./precios.html">
-            <button>$ 30.000</button> 
-        </form>
-        </div>
-            <div class="carta">
-            <h3>ANÁLISIS TÉCNICO PARA PRINCIPIANTES</h3>
-            <p>La forma más fácil de iniciar un análisis es conocer y aplicar líneas de tendencia. Lo primero que se debe hacer es trazar una línea recta que una dos puntos del gráfico. Para trazar una línea de tendencia ascendente, una dos mínimos seguidos y, para una línea de tendencia descendente, una dos picos consecutivos. </p>
-            <form action="./precios.html">
-            <button>$ 30.000</button> 
-        </form>
-        </div>
-            <div class="carta">
-            <h3>ANÁLISIS TÉCNICO AVANZADO</h3>
-            <p>El Análisis Técnico es el estudio de la acción del mercado mediante el manejo de distintos tipos de gráficos, osciladores e indicadores (análisis matemático) que reflejen los precios de una acción, su volumen, etc., con el fin de determinar las futuras tendencias de los precios. </p>
-            <form action="./precios.html">
-            <button>$ 30.000</button> 
-        </form>
-        </div>
-                </section>
+                    <div class="row">
+                        <div class="col-sm-6">
+                          <div class="card">
+                            <img src="../asset/image/carta.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h2 class="card-title">MERCADO PARA PRINCIPIANTES</h2>
+                              <p class="card-text">Te damos 2 clases de prueba, y si no cumple con tus expectativas te devolvemos el dinero.Cursos prácticos y de alta calidad a un precio accesible. ¡Conocé Más! Expertos en Finanzas. Aprendé de Finanzas. Aprendé a Operar.</p>
+                              <a href="https://www.youtube.com/watch?v=PGIeZUDUayE" target="_blank" class="btn btn-primary">Ver Ahora!!!</a>
+                              <a href="../pages/inscrip.html" class="card-link">$ 25.000</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="card">
+                            <img src="../asset/image/carta1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h2 class="card-title">MERCADO PARA INTERMEDIOS</h2>
+                              <p class="card-text">La forma más fácil de iniciar un análisis es conocer y aplicar líneas de tendencia. Lo primero que se debe hacer es trazar una línea recta que una dos puntos del gráfico. Para trazar una línea de tendencia ascendente, una dos mínimos seguidos y, para una línea de tendencia descendente, una dos picos consecutivos.</p>
+                              <a href="https://www.youtube.com/watch?v=PGIeZUDUayE" target="_blank" class="btn btn-primary">Ver Ahora!!!</a>
+                              <a href="../pages/inscrip.html" class="card-link">$ 35.000</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="card">
+                                <img src="../asset/image/carta2.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h2 class="card-title">ANÁLISIS TÉCNICO AVANZADO</h2>
+                                <p class="card-text">El Análisis Técnico es el estudio de la acción del mercado mediante el manejo de distintos tipos de gráficos, osciladores e indicadores (análisis matemático) que reflejen los precios de una acción, su volumen, etc., con el fin de determinar las futuras tendencias de los precios.</p>
+                                <a href="https://www.youtube.com/watch?v=PGIeZUDUayE" target="_blank" class="btn btn-primary">Ver Ahora!!!</a>
+                                <a href="../pages/inscrip.html" class="card-link">$ 45.000</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+
     </main>
     <footer>
         <div class="container">
-        <p>&copy; Academia Trading</p>
-    </div>
+        <p>Academia Trading &copy; 2023 | Desarrollado por Cristian-Programa</p>
+        <img src="../asset/image/face.svg" alt="">
+        <img src="../asset/image/twiter.svg" alt="">
+        <img src="../asset/image/link.svg" alt="">
+        </div>
     </footer>
+    <script src="../js/menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
 </body>
 </html>
