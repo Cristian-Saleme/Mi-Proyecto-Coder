@@ -40,6 +40,34 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
 }
+.card-body{
+    text-align: center;
+}
+
+.hero1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../asset/image/Quienes.jpg');
+    background-size: cover;
+    z-index: -1;
+}
+
+.hero1 {
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 800px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    color: #fff;
+}
+
+
 
 .nav {
     --padding-container: 0;
@@ -311,13 +339,6 @@ body {
     width: 90%;
     cursor: pointer;
 }
-#somos1 {
-    text-align: center;
-    color: #FFF;
-
-
-}
-
 
 
 @media (max-width:800px){
@@ -452,4 +473,3 @@ body {
 
 
 
-}

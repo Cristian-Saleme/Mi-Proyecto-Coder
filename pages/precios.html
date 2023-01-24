@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" data-bs-theme="dark">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,37 +11,39 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Academia Trading</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./cursos.html">Cursos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./precios.html">Precios</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mas</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="./inscrip.html">Inscripciones</a></li>
-                        <li><a class="dropdown-item" href="./somos.html">Quienes Somos</a></li>
+  <header class="hero1">
+    <nav class="nav container">
+        <div class="nav__logo">
+            <h2 class="nav__title">Academia Trading</h2>
+                </div>
+                    <ul class="nav__link nav__link--menu">
+                        <li class="nav__items">
+                            <a href="../index.html" class="nav__links">Inicio</a>
                         </li>
-                        </ul>
-                    </li>
+                        <li class="nav__items">
+                            <a href="./cursos.html" class="nav__links">Cursos</a>
+                        </li>
+                        <li class="nav__items">
+                            <a href="./precios.html" class="nav__links">Precios</a>
+                        </li>
+                        <li class="nav__items">
+                            <a href="./inscrip.html" class="nav__links">Inscripcion</a>
+                        </li>
+                        <li class="nav__items">
+                            <a href="./somos.html" class="nav__links">Quienes Somos</a>
+                        </li>
+                        <img src="../asset/image/cruz.svg" class="nav__close" alt="close">
                     </ul>
-                </div>
-                </div>
-            </nav>
-    </header>
+                    <div class="nav__menu">
+                        <img src="../asset/image/menu100.svg" class="nav__img" alt="menu">
+                    </div>
+                    </nav>
+                    <section class="hero__container container">
+                        <h1 class="hero__title">Los precios de los mejores cursos</h1>
+                        <p class="hero__paragraph">Los mejores precios de toda latinoamerica</p>
+                        <a href="./inscrip.html" class="cta">Comienza Ahora</a>
+                    </section>
+</header>
     <main>
                     <div class="row">
                         <div class="col-sm-6">
@@ -78,8 +80,6 @@
                             </div>
                           </div>
                         </div>
-
-
 
     </main>
     <footer>
